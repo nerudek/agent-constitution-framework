@@ -5,6 +5,7 @@ version: 1.0.0
 author: nerudek
 compatible-with: claude-code, hermes-agent, kimi-code, openclaw
 tags: [agent-framework, planning, constitution, decision-protocol, ai-safety]
+license: "MIT"
 ---
 
 # Agent Constitution Framework — FAZA 0-4 Pre-Action Planning Protocol
@@ -148,3 +149,20 @@ The agent must write SPECIFIC content for each phase. "FAZA 2: I assume environm
 
 If this saved you time: [PayPal.me/nerudek](https://www.paypal.me/nerudek)
 GitHub: [github.com/nerudek](https://github.com/nerudek)
+
+## Install
+
+```bash
+# Skopiuj do vault Claude Code
+cp -r . ~/.claude/skills/vault/agent-constitution-framework/
+
+# Lub sklonuj bezpośrednio
+git clone https://github.com/nerudek/agent-constitution-framework ~/.claude/skills/vault/agent-constitution-framework/
+```
+
+## Usage
+
+```bash
+# Załaduj w Claude Code
+/skill agent-constitution-framework
+```
